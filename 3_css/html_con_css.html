@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coloreando</title>
+</head>
+<style>
+    /*
+    p:first-child 
+    {
+        color: red;
+    }
+    p:last-child
+    {
+        color: blue;
+    }
+    */
+    
+    /* esto colorea segun lineas pares e impares */
+     p:nth-child(2n)
+    {
+        color:tomato; 
+    }
+    p:nth-child(2n+1)
+    {
+        color:dodgerblue; 
+    }
+    
+    p::first-letter
+    {
+        color:black;
+        font-size: 30px;
+    } 
+
+
+</style>
+<body>
+    <header> Hola mundo, este es un título :) </header>
+    <section>
+        <p>primer parrafo</p>
+        <p>2do parrafo 🐈</p>
+        <p>3er parrafo</p>
+        <p>4to parrafo</p>
+        <p>5to parrafo</p>
+    </section>
+</body>
+</html>

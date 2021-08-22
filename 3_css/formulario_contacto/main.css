@@ -1,0 +1,45 @@
+body
+{
+    background-color: #eee;
+}
+
+form
+{
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 4px;
+}
+
+input[type = text]
+{
+    width: 100%;
+    box-sizing: border-box; /*pa que no se salgan las cajitas*/
+    padding: 5px;
+    margin: 10px 0px;
+    display: block;
+    border: solid 1px #111;
+    border-radius: 4px;
+}
+
+input[type = submit]
+{
+    width: 100%;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea
+{
+    width: 100%;
+    box-sizing: border-box; /*pa que no se salgan las cajitas*/
+    padding: 5px;
+    margin: 10px 0px;
+    display: block;
+    border: solid 1px #111;
+    border-radius: 4px;
+}

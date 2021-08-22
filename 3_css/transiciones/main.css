@@ -1,0 +1,18 @@
+body
+{
+    background-color: #eee;
+}
+
+#transicion
+{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: 0.3s;
+}
+
+#transicion:hover
+{
+    transform: scale(1.05, 1.05);
+    background-color: red;
+}

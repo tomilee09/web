@@ -1,0 +1,41 @@
+body
+{
+    background-color: #666;
+}
+
+#max
+{
+    background-color: #aaa;
+    max-width: 500px; /* este tiene un ancho variable */
+}
+
+#ancho_fijo
+{
+    background-color: #eee;
+    width: 500px; /* este tiene un ancho fijo */
+}
+
+#invisible
+{
+    display: none;
+    background-color: #eee;
+    width: 500px; /* este tiene un ancho fijo */
+}
+
+#posicion_cambiada
+{
+    background-color: #999;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+#posicion_fija
+{
+    background-color: #999;
+    width: 500px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}

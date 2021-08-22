@@ -1,0 +1,31 @@
+body
+{
+    background-color: #aaaaaa;
+}
+
+#color1 
+{
+    color:#0000ee
+}
+
+.color2
+{
+    color: #00ff00
+}
+
+.propiedades_caja
+{
+    background-color: indianred;
+    color:indigo;
+    height: 100px;
+    width: 200px;
+    
+    margin: 8px;
+    
+    padding: 10px;
+
+    border-color: black;
+    border-radius: 10px 1px;
+    border-style: solid;
+
+}

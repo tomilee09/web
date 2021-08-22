@@ -1,0 +1,24 @@
+body
+{
+    background-color: #eee;
+}
+
+.grid
+{
+    display: grid;
+    background-color: tomato;
+    grid-template-columns: [col1] 1fr [col2] 2fr [col3] 3fr [col4];
+    grid-template-rows: [row1] 50px [row2] 20px [row3];
+    grid-gap: 10px;
+}
+
+.element
+{
+    background-color:mediumseagreen;
+}
+
+.titulo_grid
+{
+    grid-column: col1/ col4;
+    grid-row: row1 / row2;
+}
